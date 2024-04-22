@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container-sociallink{
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-color: black;
+}
+#container-perfil{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+    flex-direction: column;
+}
+#foto{
+    padding: 25px 35px 25px 35px;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.descr{
+    margin-top: 0px;
+    color: rgba(186, 186, 186, 0.646);
+}
+#container-links{
+    width: 100%;
+
+    padding-top: 40px;
+    flex-direction: column;
+    
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.estilo-links{
+    transition: 0.2s;
+    width: 70%;
+    height: 43px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 23px;
+}
+.estilo-links:hover{
+    color: black;
+    background-color: white;
+
+    transform: scale(1.03);
+}
